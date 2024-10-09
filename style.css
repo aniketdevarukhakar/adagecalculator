@@ -1,0 +1,102 @@
+.calculator-div {
+  background: #8cb9e152;
+  padding: 40px 45px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#date {
+  border: 1px solid #00000014;
+  outline: 0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.title h2:first-child {
+  color: #ff9b00;
+}
+
+.title h2:nth-child(2) {
+  color: azure;
+  font-size: 24px;
+}
+
+.cal-result h5 {
+  font-size: 20px;
+  color: white;
+  line-height: 32px;
+}
+
+.myName {
+  font-size: 90px;
+  font-weight: 800;
+  color: purple;
+  padding-right: 10px;
+  line-height: 70px;
+}
+
+#image {
+  width: 35%;
+}
+
+.cal-result {
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .myName {
+    font-size: 60px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .title h2:nth-child(2) {
+    font-size: 18px;
+  }
+  .justify-left {
+    justify-content: center;
+  }
+  .calculator-div {
+    padding: 40px 32px;
+    margin-top: 60px;
+  }
+  #date {
+    width: 50%;
+  }
+  .title {
+    background: #0000007a;
+    border: 2px solid #4666ad;
+    padding: 25px;
+  }
+  .cal-result h5 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #image {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 821px) {
+  #date {
+    width: 75%;
+  }
+  .cal-result h5 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  #image {
+    width: 60%;
+  }
+}
